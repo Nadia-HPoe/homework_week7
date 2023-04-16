@@ -1,0 +1,99 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            background-color: #eee5ee;
+            display: grid;
+            height: 15vh;
+            grid-template-rows: 1fr;
+            justify-content: center;
+            align-items: center;
+    
+        }
+        .container{
+            display: grid;
+            width: 100%;
+            grid-template-columns: 65% 35%;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .main{
+            background-color: beige; 
+            height: 50vh;
+            width: 100%;
+            display: grid;
+            grid-template-areas:
+            "mainsec mainsec" 
+            "mainsec1 mainsec2"
+            "mainsec3 mainsec3";
+            grid-gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            align-content: stretch;
+            
+        }
+        .mainsec{
+            display: grid;
+            width: 100%;
+            grid-area: mainsec;
+            justify-content: center;
+            align-items: center;
+        }
+        .mainsec1{
+            background-color: rgb(245, 232, 203);
+            display: grid;
+            grid-area: mainsec1;
+            height: 10vh;
+            width: 30vw;
+            justify-content: center;
+            align-items: center;
+        }
+        .mainsec2{
+            background-color: rgb(245, 232, 203);
+            display: grid;
+            grid-area: mainsec2;
+            height: 10vh;
+            width: 30vw;
+            justify-content: center;
+            align-items: center;
+        }
+        .mainsec3{
+            background-color: rgb(245, 232, 203);
+            display: grid;
+            grid-area: mainsec3;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            width: 60vw;
+            padding-left: 3%;
+        }
+        .aside{
+            background-color: rgb(225, 245, 203);
+            height: 50vh;
+            display: grid;
+            grid-template-rows: 30%;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .footer{
+            background-color: #dad1da;
+            height: 25vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 5%;
+            align-items: center;
+            padding: 10px;
+
+        }
+        .footer_sec{
+            background-color: white;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: 10vh;
+        }
+        

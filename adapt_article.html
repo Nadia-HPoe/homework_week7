@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 200px);
+}
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    </style>
+</head>
+<body>
+    <h1>Какая лисичка ты сегодня?</h1>
+    <div class="container">
+        <div><img src="habr_images/1493637268147943338.jpg" alt="foxy1"></div>
+        <div><img src="habr_images/1543508037191730113.png" alt="foxy2"></div>
+        <div><img src="habr_images/3a2ae8fbde53448db559bddb31d3df29.webp" alt="foxy3"></div>
+        <div><img src="habr_images/658591_600.jpg" alt="foxy4"></div>
+        <div><img src="habr_images/i.webp" alt="foxy5"></div>
+        <div><img src="habr_images/preview_23857665_1200x630_99_1484579537.jpg" alt="foxy6"></div>
+
+      </div>
+</body>
+</html>
